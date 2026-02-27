@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contatti | Castello Mongivetto</title>
+  <meta name="description" content="Contatta Castello Mongivetto per visite, eventi privati e informazioni operative su orari, accessibilità e biglietti.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&amp;family=Source+Sans+3:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script>document.documentElement.classList.add('js-ready');</script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="contact">
+  <a class="skip-link" href="#main-content">Salta al contenuto principale</a>
+
+  <header class="site-header">
+    <div class="container header-shell">
+      <a class="brand" href="index.html" aria-label="Castello Mongivetto - Home">
+        <img src="images/logo.png" alt="Logo Castello Mongivetto">
+        <span class="brand__text">
+          <span class="brand__name">Castello Mongivetto</span>
+          <span class="brand__tagline">Dimora Storica</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Apri menu" aria-expanded="false" aria-controls="primary-navigation">
+        <span class="nav-toggle__line"></span>
+        <span class="nav-toggle__line"></span>
+        <span class="nav-toggle__line"></span>
+      </button>
+
+      <nav class="site-nav" aria-label="Navigazione principale">
+        <ul class="nav-links" id="primary-navigation" aria-hidden="false">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="history.html">Storia</a></li>
+          <li><a href="gallery.html">Galleria</a></li>
+          <li><a href="contact.html">Contatti</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-hero">
+      <div class="page-hero__media image-slot image-slot--hero">
+        <img src="images/castle3.jpg" alt="Ingresso del Castello Mongivetto">
+      </div>
+      <div class="page-hero__veil"></div>
+      <div class="container page-hero__content" data-reveal>
+        <span class="page-hero__kicker">Prenotazioni e richieste</span>
+        <h1>Contatta il team di Castello Mongivetto</h1>
+        <p class="page-hero__lead">Per visite guidate, eventi privati o collaborazioni culturali, invia i dettagli della tua richiesta e riceverai un riscontro dedicato.</p>
+        <p class="hero-breadcrumb"><a href="index.html">Home</a> / <span>Contatti</span></p>
+      </div>
+    </section>
+
+    <section class="section section--light">
+      <div class="container">
+        <div class="contact-layout">
+          <div>
+            <header class="section-header" data-reveal>
+              <span class="section-eyebrow">Informazioni utili</span>
+              <h2 class="section-title">Riferimenti e orari di apertura</h2>
+              <p class="section-intro">Siamo disponibili dal martedì alla domenica per visite e richieste informative.</p>
+            </header>
+
+            <div class="info-grid">
+              <article class="info-card" data-reveal data-reveal-delay="40">
+                <div class="info-card__icon"><i class="fas fa-map-marker-alt" aria-hidden="true"></i></div>
+                <h3>Indirizzo</h3>
+                <p>Castello Mongivetto<br>Cerrione (BI), Piemonte</p>
+              </article>
+              <article class="info-card" data-reveal data-reveal-delay="100">
+                <div class="info-card__icon"><i class="fas fa-envelope" aria-hidden="true"></i></div>
+                <h3>Email</h3>
+                <p><a href="mailto:info@castellomongivetto.com">info@castellomongivetto.com</a></p>
+              </article>
+              <article class="info-card" data-reveal data-reveal-delay="160">
+                <div class="info-card__icon"><i class="fas fa-clock" aria-hidden="true"></i></div>
+                <h3>Orari</h3>
+                <p>Martedì - Domenica<br>10:00 - 18:00<br>Lunedì chiuso</p>
+              </article>
+            </div>
+
+            <article class="map-card" data-reveal data-reveal-delay="200">
+              <div class="map-card__media image-slot image-slot--visit">
+                <img src="images/castle1.jpg" alt="Posizione del Castello Mongivetto" loading="lazy" decoding="async">
+                <div class="map-card__overlay">
+                  <div>
+                    <p>Apri la posizione su Google Maps per indicazioni stradali immediate.</p>
+                    <a class="btn btn-secondary" href="https://www.google.com/maps/search/?api=1&amp;query=Castello+Mongivetto+Cerrione" target="_blank" rel="noopener noreferrer">Apri su Google Maps</a>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="form-shell" data-reveal data-reveal-delay="90">
+            <header class="section-header" style="margin-bottom: 1.1rem;">
+              <span class="section-eyebrow">Modulo contatti</span>
+              <h2 class="section-title">Invia la tua richiesta</h2>
+              <p class="section-intro">Compila i campi essenziali. Il modulo utilizza il tuo client email locale.</p>
+            </header>
+
+            <form id="contact-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Nome e cognome *</label>
+                  <input type="text" id="name" name="name" autocomplete="name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email *</label>
+                  <input type="email" id="email" name="email" autocomplete="email" required>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="phone">Telefono</label>
+                  <input type="tel" id="phone" name="phone" autocomplete="tel">
+                </div>
+                <div class="form-group">
+                  <label for="subject">Oggetto *</label>
+                  <select id="subject" name="subject" required>
+                    <option value="">Seleziona un'opzione</option>
+                    <option value="visita">Prenotazione visita</option>
+                    <option value="evento">Evento privato</option>
+                    <option value="informazioni">Richiesta informazioni</option>
+                    <option value="altro">Altro</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Messaggio *</label>
+                <textarea id="message" name="message" required></textarea>
+              </div>
+
+              <div class="form-group checkbox-group">
+                <input type="checkbox" id="privacy" name="privacy" required>
+                <label for="privacy">Acconsento al trattamento dei dati personali secondo normativa GDPR *</label>
+              </div>
+
+              <div class="form-submit">
+                <button class="btn btn-primary" type="submit">Invia richiesta</button>
+              </div>
+
+              <div class="form-status" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container visit-grid">
+        <figure class="image-slot image-slot--visit" data-reveal>
+          <img src="images/castle2.jpg" alt="Visita guidata al Castello Mongivetto" loading="lazy" decoding="async">
+        </figure>
+        <article class="visit-card" data-reveal data-reveal-delay="80">
+          <h3>Dettagli visita</h3>
+          <ul class="visit-list">
+            <li>
+              <i class="fas fa-ticket-alt" aria-hidden="true"></i>
+              <div>
+                <h4>Biglietti</h4>
+                <p>Adulti €10 · Ridotti €7 · Under 6 gratuito.</p>
+              </div>
+            </li>
+            <li>
+              <i class="fas fa-users" aria-hidden="true"></i>
+              <div>
+                <h4>Visite guidate</h4>
+                <p>Partenze ogni ora dalle 10:00 alle 17:00, durata media 60 minuti.</p>
+              </div>
+            </li>
+            <li>
+              <i class="fas fa-parking" aria-hidden="true"></i>
+              <div>
+                <h4>Parcheggio</h4>
+                <p>Disponibile area gratuita per auto e minivan a pochi metri dall'ingresso.</p>
+              </div>
+            </li>
+            <li>
+              <i class="fas fa-wheelchair" aria-hidden="true"></i>
+              <div>
+                <h4>Accessibilità</h4>
+                <p>Piano terra completamente accessibile. Supporto su richiesta per percorsi assistiti.</p>
+              </div>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3 class="footer-title">Castello Mongivetto</h3>
+          <p class="footer-copy">Dimora storica nel biellese dedicata a visite guidate, eventi privati e valorizzazione culturale del territorio.</p>
+        </div>
+        <div>
+          <h3 class="footer-title">Contatti</h3>
+          <ul class="footer-links">
+            <li>Cerrione (BI), Piemonte</li>
+            <li><a href="mailto:info@castellomongivetto.com">info@castellomongivetto.com</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer-title">Navigazione</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="history.html">Storia</a></li>
+            <li><a href="gallery.html">Galleria</a></li>
+            <li><a href="contact.html">Contatti</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer-title">Canali</h3>
+          <div class="social-list">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            <a href="#" aria-label="TripAdvisor"><i class="fab fa-tripadvisor" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 Castello Mongivetto. Tutti i diritti riservati.</div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
