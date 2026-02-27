@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Cormorant_Garamond, Source_Sans_3 } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/react'
 import './globals.css'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
@@ -44,6 +45,7 @@ export default function RootLayout({
         <Footer />
         <RevealAnimations />
         <AnchorScrollInit />
+        <Analytics />
       </body>
     </html>
   )
